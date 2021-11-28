@@ -4,11 +4,16 @@
 
 body {
   background-color: #505961;
+  font-family: Robot, sans-serif;
+}
+
+.logo {
+  text-align: center;
 }
 
 .icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   gap: 1rem;
